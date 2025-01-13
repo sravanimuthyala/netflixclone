@@ -52,8 +52,7 @@ nav button{
     font-size:64px;
     margin-bottom:24px;
 }
-#more{
-    white-space: pre;
+
 }
 .hero :nth-child(2){
     font-weight:500;
