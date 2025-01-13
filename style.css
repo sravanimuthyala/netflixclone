@@ -1,15 +1,68 @@
 *{
     padding:0;
     margin:0;
+    font-family:"Netflix Sans","Helvetica Neue","Segoe UI",Roboto,Ubuntu,sans-serif;
 }
 .main{
-    background-image: url("images/img.jpg/background.jpg");
-    background-image:;
+    background-image: url("images/img/background.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
     height: 80vh;
+    position:relative;  
 }
 .main .box{
 height:80vh;
 width:100%;
-opacity: 0.44;
+opacity: 0.48;
 background-color: black;
+position:absolute;
+top:0;
+}
+nav{
+    display:flex;
+    margin:auto;
+    align-items:center;
+    max-width:80vw;
+    justify-content:space-between;
+    height:63px;
+}
+nav img{
+    color:red;
+    width:120px;
+    position:relative;
+    z-index:10;
+}
+nav button{
+    position:relative;
+    z-index:10;
+}
+.hero{
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+}
+.hero :first-child{
+    font-weight:900;
+    line-height:80px;
+    font-size:64px;
+    margin-bottom:24px;
+}
+#more{
+    white-space: pre;
+}
+.hero :nth-child(2){
+    font-weight:500;
+    line-height:normal;
+    font-size:20px;
+    margin-bottom:32px;
+}
+.hero :last-child{
+    font-weight:400;
+    line-height:24px;
+    font-size:16px;
 }
