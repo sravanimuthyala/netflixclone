@@ -10,7 +10,7 @@
 <body>
         <header>
 <div id="head"><div id="netflixlogo"><div id="logo"><img src="images/logo.svg"></div></div>
-<div id="btn"><button class="btn" type="button" id="en"><span id="eng">English</span></button>
+<div id="btn"><select id="en"><option value="English">English</option><option value="हिन्दी">हिन्दी</option></select>
 <button id="sign" class="btn" type="button">Sign In</button></div>
 </div></header>
     <main><div class="img-container"><img src="https://assets.nflxext.com/ffe/siteui/vlv3/e3e9c31f-aa15-4a8f-8059-04f01e6b8629/web/IN-en-20250113-TRIFECTA-perspective_febfa442-23d9-45f3-937e-72f8b971f7a9_large.jpg" class="background-image">
@@ -20,7 +20,8 @@
     </div>
     <div class="afterimg">
 <div class="pics"><div class="trend">Trending Now</div>
-<div class="btns"><button class="btn" id="ind" type="button">India</button><button class="btn" id="mov" type="button">Movies</button></div>
+<div class="btns"><select class="btn" id="ind"><option value="India">India</option><option value="Global">Global</option></select>
+    <select class="btn" id="mov"><option value="Movies">Movies</option><option value="TV Shows">TV Shows</option></select></div>
 <div class="cards"><div class="card1"></div><div class="card2"></div><div class="card3"></div><div class="card4"></div>
 </div>
    </div> 
@@ -53,7 +54,7 @@
                 <a id="l" href="#">Legal Notices</a>
                 <a id="l" href="#">Only on Netflix</a></div>
             </div>
-            <button class="btnlast" type="button" id="en"><span id="eng">English</span>
+            <select id="en" class="btnlast"><option value="English"><span>English</span></option><option value="हिन्दी">हिन्दी</option></select>
     </div>
 <p>Netflix India</p></main>
 </body>
