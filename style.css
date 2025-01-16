@@ -53,6 +53,7 @@ height:40px;
     font-weight:400;
     line-height:1.25rem;
     font-family:"Netflix Sans","Helvetica Neue","Segoe UI",Roboto,Ubuntu,sans-serif; 
+    border:0.5px solid grey;
 }
 #sign{
     font-weight:500;
@@ -65,6 +66,7 @@ height:40px;
     width:75.9844px;
     height:32px;
     font-family:"Netflix Sans","Helvetica Neue","Segoe UI",Roboto,Ubuntu,sans-serif;
+    border:0.5px solid grey;
 }
 .img-container{
     position:relative;
@@ -92,7 +94,7 @@ body{
    padding:0;
 }
 .main{
-    background-color: aqua;
+    
     position: relative;
     
 }
@@ -165,6 +167,7 @@ body{
     height:56px;
     text-align:left;
     background-color: black;
+    border:0.5px solid grey;
 }
 #get{
     margin:0px 0px 0px 8px;
@@ -175,4 +178,57 @@ body{
     box-sizing: border-box;
     background-color: red;
     text-align: center;
+    border:0.5px solid grey;
+}
+.afterimg{
+    background-color: black;
+}
+.trend{
+    Font-size:32px;
+    font-weight:700;
+    margin:0px;
+    padding:0px;
+    display:block;
+    width:1195px;
+    height:43px;
+    position:relative;
+    left:18vw;
+}
+.btns{
+margin-top:24px;
+padding:0px;
+display:flex;
+width:1195px;
+height:64px;
+box-sizing: border-box;
+}
+#ind{
+margin:0px;
+padding:8px 36px 8px 12px;
+display:flex;
+width:94px;
+height:40px;
+text-align: left;
+border:0.5px solid grey;
+background-color: black;
+position:relative;
+left:18vw;
+}
+#mov{
+    margin:0px;
+    padding:8px 36px 8px 12px;
+    border:0.5px solid grey;
+    display:flex;
+    background-color: black;
+    width:123px;
+    height:40px;
+    text-align: left;
+    position:relative;
+left:20vw;
+}
+.btn{
+    font-family:"Netflix Sans","Helvetica Neue","Segoe UI",Roboto,Ubuntu,sans-serif;
+    cursor:pointer;
+    display:inline-block;
+    font-size:900;
 }
