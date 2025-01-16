@@ -43,6 +43,9 @@ height:40px;
     justify-content:end;
     gap:20px;
 }
+span{
+    font-size:30px;
+}
 #en{
     margin:0px;
     padding:0.375rem calc(2.25rem+0rem) 0.375rem calc(0.625rem+1rem+0.5rem);
@@ -230,5 +233,12 @@ left:20vw;
     font-family:"Netflix Sans","Helvetica Neue","Segoe UI",Roboto,Ubuntu,sans-serif;
     cursor:pointer;
     display:inline-block;
-    font-size:900;
+}
+.pics{
+    margin:0px 0px 64px;
+    padding:0px;
+    display:block;
+    width:1195px;
+    height:445.594px;
+    text-align: start;
 }
