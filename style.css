@@ -308,6 +308,13 @@ left:20vw;
     margin-bottom: 5vw;
     font-size:24px;
 }
+svg{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:end; 
+    align-items: flex-end; 
+    padding:2vw;
+}
 .questions{
     
     position:relative;
@@ -331,6 +338,9 @@ left:20vw;
     background-color: rgb(63, 58, 58);
     margin-bottom:1vw;
     box-sizing: border-box;
+}
+.q1{
+    margin-top:3vw;
 }
 .q6{
     margin-bottom: 3vw;
