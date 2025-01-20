@@ -101,9 +101,7 @@ body{
   
 }
 .main{
-    
-    position: relative;
-    
+    position: relative; 
 }
 .content{
     position:absolute;
@@ -162,8 +160,7 @@ body{
     display:flex;
     width:664px;
     height:72px;
-    text-align: left;
-   
+    text-align: left; 
 }
 #email{
     box-sizing: border-box;
@@ -247,25 +244,22 @@ left:20vw;
     text-align: start;
 }
 .card1,.card2,.card3,.card4{
-    background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXL-CdqBIJpELXwtWQliB94tD9QIgJgwyIpkLwXRRfi-mGEIUgBd7KmQYRPDaqjNnW1QxKDc-GE2aSeu7dNpB37O1_WjM4r9nwmTR4BeQFr05x3Snudb08KLCl0guB8xy43xGmozNJaKBq8nfwk4V2Yai_rMYpZK-IWWhPmHQNzZWKWeNhyOWEBi3tXcFS50aXfeni3o8pedYDB2bAGVvpLRTD8toZG5zKLsrmpPNIRtCt6YSarGuZfzFkosDsrBS9vX2MoLAgH-r7IQmAfU735FCdOZdnt7mrjpSx5wm2QLub1NdEYXbVQJ-tE_fgkklKbUvCDGp1z3Vo7dX8b6p-A.webp?r=4bd");
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
     margin:0px;
-    padding:8.8px 22px;
     display:inline-block;
     width:258px;
     height:317.594px;
     position:relative;
     left:20vw;
     flex-shrink: 0;
-    
 }
 .card1{
     background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXL-CdqBIJpELXwtWQliB94tD9QIgJgwyIpkLwXRRfi-mGEIUgBd7KmQYRPDaqjNnW1QxKDc-GE2aSeu7dNpB37O1_WjM4r9nwmTR4BeQFr05x3Snudb08KLCl0guB8xy43xGmozNJaKBq8nfwk4V2Yai_rMYpZK-IWWhPmHQNzZWKWeNhyOWEBi3tXcFS50aXfeni3o8pedYDB2bAGVvpLRTD8toZG5zKLsrmpPNIRtCt6YSarGuZfzFkosDsrBS9vX2MoLAgH-r7IQmAfU735FCdOZdnt7mrjpSx5wm2QLub1NdEYXbVQJ-tE_fgkklKbUvCDGp1z3Vo7dX8b6p-A.webp?r=4bd");
-    left:20vw;
+    left:18vw;
 }
 .card2{
     background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRh-gv1FQdodOSeMDRsLwy4WESuMjUaflt5lJieY8l_XVXnoZuabtBVmGfyYgqj-spmMyW62FOxFK-YxssQ-z5dmMEoTSre0Kdx8E6y74dzKprPzKEsvlsZONM8rQ4EQk0TF2OLJtz-Bc_hnwSblBS0TvIw4Xik5Iyk.webp?r=e1d");
-    left:17vw;
+    left:16vw;
 }
 .card3{
     background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSPpe3Tz1eBPcSTnJFlzbTdsC0tX_aTAcHEdJ_zjPFal5k32DZeFBSJDbRNvdPs_3kc8nKFCKlwtoAHNA0D9gzj6PXysCIm-Taan71b7nJOujCJuZ-WRKkHdCA_A09MR1M5qtpHDPhUIzavGH-cuH7MlF4Rh-nRerMnz6XcOosWoP7qSPhtIUF9rBkvXcIIGSfK_qUvSD76B3wnH1GQjNEJ49ayg7RF9Ycq7u1r5WlAJ1vJE1JU3vOhpCWl_jlNnWqGG_sVP6-MGx25-U_H1Tw8dx4igf4q8FTpbWPNFus1FJjChLZy2L58j7ooZ6vreV2uGNUCy0jyhNDIiUHov2pQ.webp?r=9db");
@@ -273,8 +267,9 @@ left:20vw;
 }
 .card4{
     background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXxhL8En7z0F1Y5caNx_dh_8Ne4-EMgfQ523hnGfGoMU4npo35EPk4bSmPEX2T4U7UltooGiNkiapDJ70kodFdH0DzZLRiE59f7L2FXbB-fgGzFXLkNBzaYOUMeY1OodZCC58V8izXXlNUEDMSlvi-wiOvNObkNLnyM.webp?r=bf7");
-     left:11vw;
+     left:12vw;
 }
+
 .more{
     font-size:32px;
     font-weight:700;
@@ -283,7 +278,6 @@ left:20vw;
     height:40px;
     position:relative;
     left:17vw;
-    
 }
 .boxes{
     margin-top:3vw;
@@ -316,8 +310,7 @@ svg{
     padding:2vw;
 }
 .questions{
-    
-    position:relative;
+     position:relative;
     left:17vw;
     font-weight:700;
     margin-top:cal(16px+1vw);
@@ -326,8 +319,7 @@ svg{
     gap:2vw;
 }
 .q1,.q2,.q3,.q4,.q5,.q6{
-   
-    position:relative;
+   position:relative;
     left:17vw;
     font-size:24px;
     font-weight:400;
@@ -338,6 +330,7 @@ svg{
     background-color: rgb(63, 58, 58);
     margin-bottom:1vw;
     box-sizing: border-box;
+    justify-content:space-between;
 }
 .q1{
     margin-top:3vw;
@@ -345,11 +338,7 @@ svg{
 .q6{
     margin-bottom: 3vw;
 }
-.q1,.q2,.q3,.q4,.q5,.q6{
-justify-content:space-between;
-}
 .small{
-    
     position:relative;
     top:59%;
     left:32%;
@@ -376,35 +365,23 @@ justify-content:space-between;
 #phoneno{
     position:relative;
     left:17vw;
-    display:inline;
     color: rgba(255,255,255,0.7);
     margin-top:5vw;
+    margin-bottom: 3vw;
 }
-.row1,.row2,.row3,.row4{
+table{
     position:relative;
-    left:17vw;
-    display:flex;
-    flex-direction: row;
-    gap: 13vw;
-    color: rgba(255,255,255,0.7); 
+    left:17vw;   
 }
-.row1{
-    margin-top:1vw;
+u{
+ margin-bottom: 1vw;
+    margin-right: 1vw;
+    color: rgba(255,255,255,0.6); 
 }
-.row2{
-    margin-top:0.8vw;
-}
-.row3{
-    margin-top:0.8vw;
-}
-.row4{
-    margin-top:0.8vw;
-    margin-bottom:3vw ;
-}
+
 .btnlast{
     position:relative;
     left:17vw;
-    
 }
 p{
     color: rgba(255,255,255,0.7);
