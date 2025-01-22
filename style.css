@@ -47,10 +47,11 @@
         outline:0.104vw solid white;
         outline-offset: 0.104vw;
     }
+    
     #en{
         padding:0.375rem calc(2.25rem+0rem) 0.375rem calc(0.625rem+1rem+0.5rem);
-        display:block;
-        width:121px;
+        display:inline-block;
+        width:6.302vw;
         height:1.667vw;
         background-color: black;
         font-weight:400;
@@ -88,6 +89,7 @@
     position: absolute;
     top:0;
     left:0;
+    right:0;
     width:99.115vw;
     height:51.491vw;
     background: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 3.000%, rgba(0, 0, 0, 0.8465) 11.08%, rgba(0, 0, 0, 0.8361) 19.17%, rgba(0, 0, 0, 0.8187) 27.25%, rgba(0, 0, 0, 0.7944) 35.33%, rgba(0, 0, 0, 0.7632) 43.42%, rgba(0, 0, 0, 0.7250) 51.50%, rgba(0, 0, 0, 0.6868) 59.58%, rgba(0, 0, 0, 0.6556) 67.67%, rgba(0, 0, 0, 0.6313) 75.75%, rgba(0, 0, 0, 0.6139) 83.83%, rgba(0, 0, 0, 0.6035) 91.92%, rgba(0, 0, 0, 0.6000) 100.0%);
@@ -181,16 +183,26 @@
         text-align: center;
         border:0.026vw solid grey;
     }
+    .curve {
+        width: 105%;
+        height: 4.688vw;
+        border: solid 0.26vw rgb(248, 200, 222);
+        border-color:#ff0387 transparent transparent transparent;
+        border-radius: 90%/5.208vw 5.208vw 0 0;
+        transform: translateX(-50px);
+        padding-top: 0.26vw;
+        position: relative; 
+        top: -0.521vw; 
+        left: 1.5%;
+        background: linear-gradient(rgba(0,0,200,0.1), rgba(0,0,200,0.1));
+        background-color: black;    
+    }
     .afterimg{
         background-color: black;
     }
-    .curve{
-        border:0.156vw solid transparent;
-        border-top-left-radius: 50% 100%;
-        border-top-right-radius: 50% 100%;
-        background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
-    }
+    
     .trend{
+        margin-top:1vw;
         Font-size:1.667vw;
         font-weight:700;
         display:block;
@@ -206,6 +218,10 @@
     height:3.333vw;
     box-sizing: border-box;
     }
+    #ind:focus{
+        outline:0.104vw solid white;
+        outline-offset: 0.104vw;
+    }
     #ind{
     padding:0.417vw 1.875vw 0.417vw 0.625vw;
     display:flex;
@@ -213,13 +229,20 @@
     height:2.083vw;
     text-align: left;
     border:0.026vw solid grey;
+    border-radius: 0.208vw;
     background-color: black;
     position:relative;
     left:18vw;
+    transition: outline 0.3s ease;
+    }
+    #mov:focus{
+        outline:0.104vw solid white;
+        outline-offset: 0.104vw;
     }
     #mov{
         padding:0.417vw 1.875vw 0.417vw 0.625vw;
         border:0.026vw solid grey;
+        border-radius: 0.208vw;
         display:flex;
         background-color: black;
         width:6.406vw;
@@ -227,6 +250,7 @@
         text-align: left;
         position:relative;
     left:20vw;
+    transition: outline 0.3s ease;
     }
     .btn{
         font-family:"Netflix Sans","Helvetica Neue","Segoe UI",Roboto,Ubuntu,sans-serif;
@@ -243,29 +267,37 @@
     .card1,.card2,.card3,.card4{
          background-repeat: no-repeat;
         display:inline-block;
-        width:13.438vw;
-        height:16.541vw;
+        width:11.146vw;
+        height:15.625vw;
         position:relative;
         left:20vw;
         flex-shrink: 0;
+        object-fit:cover;
+        border-radius: 0.5vw;
+         background-size:cover;
     }
     .card1{
         background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXL-CdqBIJpELXwtWQliB94tD9QIgJgwyIpkLwXRRfi-mGEIUgBd7KmQYRPDaqjNnW1QxKDc-GE2aSeu7dNpB37O1_WjM4r9nwmTR4BeQFr05x3Snudb08KLCl0guB8xy43xGmozNJaKBq8nfwk4V2Yai_rMYpZK-IWWhPmHQNzZWKWeNhyOWEBi3tXcFS50aXfeni3o8pedYDB2bAGVvpLRTD8toZG5zKLsrmpPNIRtCt6YSarGuZfzFkosDsrBS9vX2MoLAgH-r7IQmAfU735FCdOZdnt7mrjpSx5wm2QLub1NdEYXbVQJ-tE_fgkklKbUvCDGp1z3Vo7dX8b6p-A.webp?r=4bd");
         left:18vw;
+       
     }
     .card2{
         background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRh-gv1FQdodOSeMDRsLwy4WESuMjUaflt5lJieY8l_XVXnoZuabtBVmGfyYgqj-spmMyW62FOxFK-YxssQ-z5dmMEoTSre0Kdx8E6y74dzKprPzKEsvlsZONM8rQ4EQk0TF2OLJtz-Bc_hnwSblBS0TvIw4Xik5Iyk.webp?r=e1d");
-        left:16vw;
+        left:20vw;
+        
     }
     .card3{
         background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSPpe3Tz1eBPcSTnJFlzbTdsC0tX_aTAcHEdJ_zjPFal5k32DZeFBSJDbRNvdPs_3kc8nKFCKlwtoAHNA0D9gzj6PXysCIm-Taan71b7nJOujCJuZ-WRKkHdCA_A09MR1M5qtpHDPhUIzavGH-cuH7MlF4Rh-nRerMnz6XcOosWoP7qSPhtIUF9rBkvXcIIGSfK_qUvSD76B3wnH1GQjNEJ49ayg7RF9Ycq7u1r5WlAJ1vJE1JU3vOhpCWl_jlNnWqGG_sVP6-MGx25-U_H1Tw8dx4igf4q8FTpbWPNFus1FJjChLZy2L58j7ooZ6vreV2uGNUCy0jyhNDIiUHov2pQ.webp?r=9db");
-         left:14vw;  
+         left:22vw; 
     }
     .card4{
         background-image: url("https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXxhL8En7z0F1Y5caNx_dh_8Ne4-EMgfQ523hnGfGoMU4npo35EPk4bSmPEX2T4U7UltooGiNkiapDJ70kodFdH0DzZLRiE59f7L2FXbB-fgGzFXLkNBzaYOUMeY1OodZCC58V8izXXlNUEDMSlvi-wiOvNObkNLnyM.webp?r=bf7");
-         left:12vw;
+         left:24vw;
+       
     }
-    
+    .card1:hover,.card2:hover,.card3:hover,.card4:hover{
+        transform:scale(1.1);
+    }
     .more{
         font-size:1.667vw;
         font-weight:700;
@@ -274,7 +306,7 @@
         height:4vw;
         position:relative;
         left:17vw;
-        
+        margin-top: 2vw;
     }
     .boxes{
         top:0;
@@ -282,14 +314,21 @@
         gap:0.521vw;
         box-sizing: border-box;
         margin-bottom: 3vw;
+        width: calc(100% + 0.75rem);
     }
-    
+    .svg{
+        object-fit: cover;
+        display:flex;
+        align-items: flex-end;
+        justify-content:flex-end;
+       margin-top: 1vw;
+    }
     .box1,.box2,.box3,.box4 {
         box-sizing: border-box;
         padding:2vw;
         width:14.896vw;
         height:17.396vw;
-        border: 0.5px solid grey;
+        border:none;
         position:relative;
         left:17vw;
         border-radius: 0.521vw;
@@ -297,15 +336,16 @@
     }
     .box{
         font-weight:500;
-        margin-bottom: 5vw;
+        
         font-size:1.25vw;
     }
+    
     
     .questions{
          position:relative;
         left:17vw;
         font-weight:700;
-        margin-top:cal(16px+1vw);
+        margin-top:1vw;
         display: inline-flex;
         font-size:1.667vw;
         gap:2vw;
